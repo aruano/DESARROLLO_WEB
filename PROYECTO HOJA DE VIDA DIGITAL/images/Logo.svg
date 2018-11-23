@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <polygon fill="#000000" id="svg_4"/>
+  <polygon fill="#000000" id="svg_5"/>
+  <polygon fill="#000000" id="svg_6"/>
+  <polygon fill="#000000" id="svg_7"/>
+  <polygon fill="#000000" id="svg_21"/>
+  <polygon fill="#000000" id="svg_3" points="430.025 174.143 386.692 237.225 316.577 213.13 316.577 135.156 386.692 111.061 430.025 174.143" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 443.152 205.816)"/>
+  <polygon fill="#000000" id="svg_8" points="95.2965 220.893 164.584 194.249 209.952 255.711 168.708 320.338 97.8455 298.822 95.2965 220.893" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 181.183 304.525)"/>
+  <polygon fill="#000000" id="svg_9" points="294.568 135.171 295.687 213.138 225.924 238.354 181.691 175.977 224.113 112.205 294.568 135.171" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 283.352 207.165)"/>
+  <polygon fill="#000000" id="svg_10" points="517.967 288.68 448.352 314.351 403.757 252.259 445.807 188.216 516.394 210.722 517.967 288.68" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 547.098 297.391)"/>
+  <polygon fill="#000000" id="svg_11" points="524.43 436.754 454.441 412.247 454.851 334.273 525.089 310.59 568.094 373.925 524.43 436.754" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 606.935 442.681)"/>
+  <polygon fill="#000000" id="svg_12" points="54.4079 379.968 92.1244 312.969 164.025 330.205 170.746 407.852 103 438.61 54.4079 379.968" stroke="#7f7f7f" stroke-width="5" transform="rotate(-0.00000429046 169.935 565.934)"/>
+  <line fill="none" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(1.74774 319.5 439.272)" x1="1.688755" x2="637.311278" y1="449.683788" y2="428.86127"/>
+  <ellipse cx="170.438102" cy="501.278126" fill="none" id="svg_15" rx="0" ry="2.974645" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(-0.00000429046 173.912 511.497)"/>
+  <ellipse cx="316.062551" cy="452.557015" fill="none" id="svg_16" rx="8.437467" ry="8.923936" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" transform="rotate(-0.00000429046 600.847 866.711)"/>
+  <text fill="#000000" font-family="Fantasy" font-size="57" font-style="normal" font-weight="normal" id="svg_17" stroke="#7fff00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="rotate(-0.00000429046 310.871 339.255) matrix(2.81249 0 0 2.97465 -599.124 -400.004)" x="322.623052" xml:space="preserve" y="270.013773">AR</text>
+  <polygon fill="#000000" id="svg_20" points="308.25 12.0161 329.743 77.4131 395.19 78.8237 343.026 120.652 361.982 186.921 308.25 147.375 254.518 186.921 273.474 120.652 221.31 78.8237 286.757 77.4131 308.25 12.0161 329.743 77.4131" stroke="#ffffff" stroke-width="5" transform="rotate(-0.00000429046 365.929 117.169)"/>
+ </g>
+</svg>
