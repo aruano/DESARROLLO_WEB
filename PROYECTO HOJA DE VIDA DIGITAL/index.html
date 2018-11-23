@@ -3,6 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Hoja de Vida Digital!</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0
+    }
+    #main {
+      display: flex;
+      min-height: calc(100vh - 40vh);
+    }
+    #main > article {
+      flex: 1;
+    }
+    #main > aside {
+      flex: 0 0 20vw;
+      background: beige;
+    }
+    #main > nav {
+      order: -1;
+    }
+    header, footer, article, nav, aside {
+      padding: 1em;
+    }
+    header, footer {
+      background:
+      height: 20vh;
+    }
+    </style>
   </head>
   <body>
     <header>
@@ -10,19 +39,47 @@
         <svg>
           <image xlink:href="images/Logo.svg" height="125px" x="0" y="0"></image>
         </svg>
-        <h1>HOJA DE VIDA DIGITAL</h1>
       </div>
       <div style="float: right">
+        <h1>HOJA DE VIDA DIGITAL</h1>
         <h2><em>Arnoldo Misael Ruano Corado</em></h2>
         <h3><em>Guatemala, 04 de febrero del 1995</em></h3>
       </div>
-    </div>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="index.html">Inicio</a>
-      <a href="index.html">Inicio</a>
-    </nav>
     </header>
+    <article>
+      <header>
+        <h1>Información Personal</h1>
+      </header>
+      <section>
 
+      </section>
+      <section>
+        <p>
+          Me llamo Arnoldo Ruano, tengo 23 años, soy Administrador de IT. Me desempeño como administrador de IT en una fundación
+          que vela por el equipamiento y capacitación de escuelas públicas en Guatemala, mis tareas dentro de la fundación se podrían
+          resumir en 2: <strong>Mantener el correcto funcionamiento de los sistemas dentro de la fundación</strong> y <strong> la
+          Innovación.</strong> Las habilidades que me identifican como profesional exitoso son: <em>responsabilidad, compromiso,
+          trabajo arduo, imaginación para la resolución de problemas, trabajo en equipo y nunca decir <strong>"no se puede".</strong></em>
+          Dentro de mis destrezas se pueden enumerar dentro de las áreas de <em>Desarrollo Web, Infraestructura, Manejo de servicios de IT,
+          Analisis e Implementación de Sistemas y Diseño Web.</em>
+        </p>
+      </section>
+      <aside>
+        <h2>Idiomas</h2>
+        <ul>
+          <li>Inglés (comprensión y escritura)</li>
+          <li>Español (idioma materno)</li>
+        </ul>
+      </aside>
+    </article>
+    <div id="main">
+      <nav>
+        <ul>
+          <li><a href="index.html" style="appearance: button;">Inicio</a></li>
+          <li><a href="pages/Educacion.html" style="appearance: button;">Educación</a></li>
+          <li><a href="pages/Experiencia.html" style="appearance: button;">Experiencia</a></li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html
