@@ -8,78 +8,118 @@
       box-sizing: border-box;
     }
     body {
-      margin: 0
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
     }
-    #main {
-      display: flex;
-      min-height: calc(100vh - 40vh);
+    /* Header */
+    header {
+      text-align: center;
+      background: white;
     }
-    #main > article {
-      flex: 1;
+    header h1 {
+      font-size: 50px;
     }
-    #main > aside {
-      flex: 0 0 20vw;
-      background: beige;
+
+    /* Nav bar*/
+    nav {
+      overflow: hidden;
+      background-color: #333;
     }
-    #main > nav {
-      order: -1;
+
+    nav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
     }
-    header, footer, article, nav, aside {
-      padding: 1em;
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
     }
-    header, footer {
-      background:
-      height: 20vh;
+    article {
+      background-color: white;
+      float:left;
+      width: 75%;
+    }
+    aside {
+      float: left;
+      width: 25%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    section {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    svg {
+      float: left;
+    }
+    img {
+      display: block;
     }
     </style>
   </head>
   <body>
     <header>
-      <div style="float: left">
-        <svg>
-          <image xlink:href="images/Logo.svg" height="125px" x="0" y="0"></image>
-        </svg>
-      </div>
-      <div style="float: right">
-        <h1>HOJA DE VIDA DIGITAL</h1>
-        <h2><em>Arnoldo Misael Ruano Corado</em></h2>
-        <h3><em>Guatemala, 04 de febrero del 1995</em></h3>
-      </div>
+      <svg>
+        <image xlink:href="images/Logo.svg" height="150px" x="0" y="0"></image>
+      </svg>
+      <h1>HOJA DE VIDA DIGITAL</h1>
+      <h2><em>Arnoldo Misael Ruano Corado</em></h2>
+      <h3><em>Guatemala, 04 de febrero del 1995</em></h3>
     </header>
-    <article>
-      <header>
-        <h1>Información Personal</h1>
-      </header>
-      <section>
-
-      </section>
-      <section>
-        <p>
-          Me llamo Arnoldo Ruano, tengo 23 años, soy Administrador de IT. Me desempeño como administrador de IT en una fundación
-          que vela por el equipamiento y capacitación de escuelas públicas en Guatemala, mis tareas dentro de la fundación se podrían
-          resumir en 2: <strong>Mantener el correcto funcionamiento de los sistemas dentro de la fundación</strong> y <strong> la
-          Innovación.</strong> Las habilidades que me identifican como profesional exitoso son: <em>responsabilidad, compromiso,
-          trabajo arduo, imaginación para la resolución de problemas, trabajo en equipo y nunca decir <strong>"no se puede".</strong></em>
-          Dentro de mis destrezas se pueden enumerar dentro de las áreas de <em>Desarrollo Web, Infraestructura, Manejo de servicios de IT,
-          Analisis e Implementación de Sistemas y Diseño Web.</em>
-        </p>
-      </section>
+    <nav>
+      <a href="index.html" style="appearance: button;">Inicio</a>
+      <a href="pages/Educacion.html" style="appearance: button;">Educación</a>
+      <a href="pages/Experiencia.html" style="appearance: button;">Experiencia</a>
+    </nav>
+    <section>
+      <article>
+        <header>
+          <h2>Información Personal</h2>
+        </header>
+          <p>
+            Me llamo Arnoldo Ruano, tengo 23 años, soy Administrador de IT. Me desempeño como administrador de IT en una fundación
+            que vela por el equipamiento y capacitación de escuelas públicas en Guatemala, mis tareas dentro de la fundación se podrían
+            resumir en 2: <strong>Mantener el correcto funcionamiento de los sistemas dentro de la fundación</strong> y <strong> la
+            Innovación.</strong> Las habilidades que me identifican como profesional exitoso son: <em>responsabilidad, compromiso,
+            trabajo arduo, imaginación para la resolución de problemas, trabajo en equipo y nunca decir <strong>"no se puede".</strong></em>
+            Dentro de mis destrezas se pueden enumerar dentro de las áreas de <em>Desarrollo Web, Infraestructura, Manejo de servicios de IT,
+            Analisis e Implementación de Sistemas y Diseño Web.</em>
+          </p>
+      </article>
       <aside>
+        <img src="images/perfil.jpeg" alt="Arnoldo Ruano" title="Arnoldo Ruano" height="150px" style="display: block;" />
         <h2>Idiomas</h2>
         <ul>
           <li>Inglés (comprensión y escritura)</li>
           <li>Español (idioma materno)</li>
         </ul>
       </aside>
-    </article>
-    <div id="main">
-      <nav>
-        <ul>
-          <li><a href="index.html" style="appearance: button;">Inicio</a></li>
-          <li><a href="pages/Educacion.html" style="appearance: button;">Educación</a></li>
-          <li><a href="pages/Experiencia.html" style="appearance: button;">Experiencia</a></li>
-        </ul>
-      </nav>
-    </div>
+    </section>
+    <footer>
+      <h2><strong>Contacto:</strong></h2>
+      <p>
+        <strong><em>arnoldo.ruano6@gmail.com</em></strong>
+        <br />
+        San Andrés Itzapa, Chimaltenango, Guatemala
+        <br />
+        <em>+(502)33494579</em>
+      </p>
+    </footer>
   </body>
 </html
