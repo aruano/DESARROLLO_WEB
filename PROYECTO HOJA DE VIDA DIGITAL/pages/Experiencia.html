@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Digital!</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    /* Header */
+    header {
+      text-align: center;
+      background: white;
+    }
+    header h1 {
+      font-size: 50px;
+    }
+
+    /* Nav bar*/
+    nav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    article {
+      background-color: white;
+      float:left;
+      width: 100%;
+    }
+    section {
+      padding: 20px;
+      margin-top: 20px;
+    }
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    svg {
+      float: left;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="../images/Logo.svg" height="150px" x="0" y="0"></image>
+      </svg>
+      <h1>HOJA DE VIDA DIGITAL</h1>
+      <h2><em>Arnoldo Misael Ruano Corado</em></h2>
+      <h3><em>Guatemala, 04 de febrero del 1995</em></h3>
+    </header>
+    <nav>
+      <a href="../index.html" style="appearance: button;">Inicio</a>
+      <a href="Educacion.html" style="appearance: button;">Educación</a>
+      <a href="Experiencia.html" style="appearance: button;">Experiencia</a>
+    </nav>
+    <section>
+      <article>
+        <header>
+          <h2>Experiencia</h2>
+        </header>
+        <h3>Habilidades e Intereses</h3>
+        <video width="200" controls poster="../images/file-not-found.jpg">
+          <source src="../media/perfil.mp4" type="video/mp4" />
+          <source src="../media/perfil.ogg" type="video/ogg" />
+          El navegador no soporta el video.
+        </video>
+        <h3>Hobbies y Actividades</h3>
+        <audio src="../media/actividades.mp3" controls preload="auto">
+          El navegador no soporta el audio.
+        </audio>
+        <audio
+      </article>
+    </section>
+    <footer>
+      <h2><strong>Contacto:</strong></h2>
+      <p>
+        <a href="mailto:arnoldo.ruano6@gmail.com"><strong><em>arnoldo.ruano6@gmail.com</em></strong></a>
+        <br />
+        San Andrés Itzapa, Chimaltenango, Guatemala
+        <br />
+        <em>+(502)33494579</em>
+      </p>
+    </footer>
+  </body>
+</html
